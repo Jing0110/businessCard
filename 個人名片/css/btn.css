@@ -1,0 +1,22 @@
+.btn::before {
+    content: ">";
+    padding-top: 1px;
+    display: block;
+    position: absolute;
+    top: calc(50% - 11px);
+    left: calc(50% - 4px);
+    font-size: 100%;
+}
+
+    .info>div {
+    margin: 10px auto;
+    color: #fff;
+    background-color: rgba(255,143,143,1);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+}
+
+    用偽元素做BTN
+    改變寬高的數值就能置中，不用重新再算

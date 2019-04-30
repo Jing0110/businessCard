@@ -1,0 +1,106 @@
+*{
+	box-sizing: border-box;
+}
+
+html, body{
+	width: 100%;
+	height: 100%;
+}
+
+.wrapper{
+	margin: 20px auto;
+	width: 400px;
+	height: 700px;
+background: rgba(255,233,176,1);
+background: -moz-linear-gradient(-45deg, rgba(255,233,176,1) 0%, rgba(247,209,111,1) 50%, rgba(255,233,176,1) 50%, rgba(247,209,111,1) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(255,233,176,1)), color-stop(50%, rgba(247,209,111,1)), color-stop(50%, rgba(255,233,176,1)), color-stop(100%, rgba(247,209,111,1)));
+background: -webkit-linear-gradient(-45deg, rgba(255,233,176,1) 0%, rgba(247,209,111,1) 50%, rgba(255,233,176,1) 50%, rgba(247,209,111,1) 100%);
+background: -o-linear-gradient(-45deg, rgba(255,233,176,1) 0%, rgba(247,209,111,1) 50%, rgba(255,233,176,1) 50%, rgba(247,209,111,1) 100%);
+background: -ms-linear-gradient(-45deg, rgba(255,233,176,1) 0%, rgba(247,209,111,1) 50%, rgba(255,233,176,1) 50%, rgba(247,209,111,1) 100%);
+background: linear-gradient(135deg, rgba(255,233,176,1) 0%, rgba(247,209,111,1) 50%, rgba(255,233,176,1) 50%, rgba(247,209,111,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffe9b0', endColorstr='#f7d16f', GradientType=1 );
+	overflow: hidden;
+}
+
+.img{
+	margin: -700px auto;
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	background-color: #ccc;
+	display: block;
+	z-index: 1000;
+}
+
+/*.img img{
+	margin: 50px auto;
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	overflow: hidden;
+	object-fit: none;
+	object-position: -100px -100px;
+}*/
+
+.info{
+	margin: 115px auto;
+	padding: 15px;
+	width: 300px;
+	height: 500px;
+	background-color: #fff;
+	display: block;
+}
+
+.name{
+	margin: 10px auto;
+	padding-top: 100px;
+	color: #555;
+	text-align: center;
+	font-weight: 500;
+}
+
+.info hr{
+	border: 1px solid #666;
+	margin: 30px;
+	opacity: 0.25;
+}
+
+.info p{
+	margin-bottom: 6px;
+	color: #666;
+	text-align: center;
+	font-size: 16px;
+}
+
+.info p:last-child{
+	color: #fff;
+}
+
+.btn{
+	width: 20px;
+	height: 20px;
+	margin: 50px auto;
+	border-radius: 10px;
+	background-color: #f7d16f;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
